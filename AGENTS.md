@@ -10,7 +10,6 @@
 <!-- LOVABLE:END -->
 
 ## Architecture
-- App-owned header branding and the favicon share `public/favicon.svg` so the same workflow/check mark stays consistent across pages and browser tabs.
 - Product scope is a simulator using only BFS, UCS and A* (`src/lib/algorithms/search.ts`); every trace event shown in the UI comes from these runs — never canned/hardcoded results.
 - Scenarios are graph data (nodes + weighted edges + start/goal) in `src/lib/scenarios.ts`; custom workflows, active scenario and run history persist in localStorage via `src/lib/store.ts`.
 - Simulator playback replays the recorded trace; speed only affects pacing.
