@@ -82,8 +82,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Trace Fix AI — Workflow Failure Simulator" },
       { name: "description", content: "Interactive simulator: BFS, UCS and A* diagnose simulated CI/CD workflow failures step by step." },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Trace Fix AI" },
+      { property: "og:title", content: "Trace Fix AI — Workflow Failure Simulator" },
+      { property: "og:description", content: "Explore simulated CI/CD workflow failures and compare BFS, UCS, and A* search to find recovery paths." },
+      { property: "og:url", content: "https://trace-fix-ai.vercel.app/" },
+      { property: "og:image", content: "https://trace-fix-ai.vercel.app/og-image.svg" },
+      { property: "og:image:alt", content: "Trace Fix AI — Workflow Failure Simulator" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Trace Fix AI — Workflow Failure Simulator" },
+      { name: "twitter:description", content: "Explore simulated CI/CD workflow failures and compare BFS, UCS, and A* search." },
+      { name: "twitter:image", content: "https://trace-fix-ai.vercel.app/og-image.svg" },
     ],
     links: [
       {
