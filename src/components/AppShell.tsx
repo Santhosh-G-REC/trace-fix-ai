@@ -1,5 +1,5 @@
 import { Link, useRouterState } from "@tanstack/react-router";
-import { Boxes, History, Network, PlayCircle } from "lucide-react";
+import { History, Network, PlayCircle } from "lucide-react";
 import type { ReactNode } from "react";
 
 const NAV = [
@@ -14,7 +14,7 @@ export function AppShell({ children }: { children: ReactNode }) {
     <div className="flex h-dvh flex-col overflow-hidden">
       <header className="z-30 flex shrink-0 flex-wrap items-center gap-x-4 gap-y-1 border-b border-border bg-sidebar px-3 py-1.5">
         <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-8 w-8 items-center justify-center rounded-md bg-primary text-primary-foreground"><Boxes className="h-4 w-4" /></div>
+          <img src="/favicon.svg" alt="" aria-hidden="true" width={32} height={32} className="h-8 w-8 shrink-0" />
           <span className="text-sm font-bold">Trace Fix AI</span>
         </Link>
         <nav className="flex flex-wrap gap-1">
