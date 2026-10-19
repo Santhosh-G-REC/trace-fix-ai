@@ -69,7 +69,7 @@ BFS, UCS, and A* optimize different criteria or use different guidance. Compare 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/rohanv2007/trace-fix-ai.git
+git clone https://github.com/sanjai493/trace-fix-ai.git
 cd trace-fix-ai
 ```
 
