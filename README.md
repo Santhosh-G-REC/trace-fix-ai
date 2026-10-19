@@ -210,5 +210,5 @@ No license is specified in this repository at the time this README was written. 
 
 ---
 
-**Repository:** [rohanv2007/trace-fix-ai](https://github.com/rohanv2007/trace-fix-ai)  
+
 **Built with:** React · TypeScript · TanStack Start · Tailwind CSS · Vite · Vitest
